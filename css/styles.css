@@ -5,7 +5,38 @@ body {
 }
 ul,
 ul li {
-  list-style: none;
+  list-style-type: none;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+}
+.section {
+  padding: 120px;
+}
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -48,7 +79,7 @@ ul li {
   color: #434455;
 }
 .our-adress {
-  font-style: normal;
+  display: flex;
 }
 .adress-link:hover,
 .adress-link:focus {
