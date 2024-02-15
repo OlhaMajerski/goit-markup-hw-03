@@ -53,7 +53,6 @@ img {
 .menu-flex {
   display: flex;
   gap: 40px;
-  margin-right: 76px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -72,6 +71,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
 .nav-link {
   font-family: "Roboto", sans-serif;
@@ -204,7 +204,7 @@ img {
 
 .team-card {
   background-color: #ffffff;
-  border-radius: 0px 0 px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-bio {
   padding: 32px 0px 32px 0px;
@@ -250,6 +250,10 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+}
+.portfolio-bio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .footer {
   background-color: #2e2f42;
