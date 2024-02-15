@@ -27,17 +27,28 @@ p {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.page-header {
+  border-bottom: solid #e7e9fc;
+}
+.page-header-container {
+  display: flex;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
 }
 .menu-flex {
   display: flex;
@@ -60,6 +71,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
 .nav-link {
   font-family: "Roboto", sans-serif;
@@ -68,6 +80,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px o;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -155,6 +168,9 @@ img {
   flex-direction: row;
   gap: 24px;
 }
+.about-card {
+  width: calc((100%-72px) / 4);
+}
 .about-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -189,6 +205,9 @@ img {
 .team-card {
   background-color: #ffffff;
 }
+.team-bio {
+  padding: 32px 16px 32px 16px;
+}
 .team-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -197,6 +216,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-description {
   font-family: "Roboto", sans-serif;
@@ -250,4 +270,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  margin-bottom: 16px;
+  display: inline-block;
 }
