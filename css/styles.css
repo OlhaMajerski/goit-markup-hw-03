@@ -53,6 +53,7 @@ img {
 .menu-flex {
   display: flex;
   gap: 40px;
+  margin-right: 332px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -272,7 +273,7 @@ img {
   text-align: left;
   color: #f4f4fd;
 }
-.logo .footer-logo {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -284,5 +285,4 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  margin-bottom: 16px;
 }
