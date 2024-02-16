@@ -80,7 +80,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px o;
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -269,6 +269,10 @@ img {
   text-align: left;
   color: #f4f4fd;
 }
+.logo .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-logo-span {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -278,5 +282,4 @@ img {
   text-transform: uppercase;
   color: #f4f4fd;
   margin-bottom: 16px;
-  display: inline-block;
 }
