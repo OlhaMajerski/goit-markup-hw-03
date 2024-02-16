@@ -120,7 +120,9 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin-right: auto;
   margin-bottom: 45px;
+  margin-left: auto;
 }
 .btn {
   background: #4d5ae5;
@@ -136,6 +138,7 @@ img {
   border-radius: 4px;
   display: block;
   border: none;
+  margin: 0 auto;
 }
 .btn:hover,
 .btn:focus {
